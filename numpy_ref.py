@@ -33,3 +33,35 @@ x = np.linalg.solve(c, a)#  решает лин.ур. или систему ли
 # с - коэффициенты, а - свб.члены
 # print(x)
 
+zer = np.zeros((2, 3), dtype = int)
+ones = np.ones((2, 3), dtype = float)
+f = np.full((2, 3), 10)
+# print(f)
+# print(zer)
+# print(ones)
+
+g = np.arange(3)
+# print(g)
+g2 = np.arange(3, 7)
+# print(g2)
+g3 = np.arange(3, 8, 2)
+# print(g3)
+
+# срезы
+# item[start:stop:step]
+i1 = np.array([1, 3, 8, 7])
+# print(i1[:])
+# print(i1[2:])
+# print(i1[:-1])
+# print(i1[::-1])
+
+i2 = [1, 3, 6, 7]
+i2[1:3] = [0, 0, 0]# с numpy.array не работает
+# print(i2)
+
+
+
+
+
+
+

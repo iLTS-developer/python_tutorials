@@ -30,14 +30,14 @@ tk.update()
 def snake_paint_item(canvas, x, y):
     id1 = canvas.create_rectangle(x*snake_item,
                                   y*snake_item, 
-                                  x*snake_item+snake_item,
-                                  y*snake_item+snake_item,
-                                  fill=snake_color2)
-    id2 = canvas.create_rectangle(x*snake_item+2,
-                                  y*snake_item+2,
-                                  x*snake_item+snake_item-2,
-                                  y*snake_item+snake_item-2,
-                                  fill=snake_color1)
+                                  x*snake_item + snake_item,
+                                  y*snake_item + snake_item,
+                                  fill = snake_color2)
+    id2 = canvas.create_rectangle(x*snake_item + 2,
+                                  y*snake_item + 2,
+                                  x*snake_item + snake_item - 2,
+                                  y*snake_item + snake_item - 2,
+                                  fill = snake_color1)
     
 snake_paint_item(canvas, snake_x, snake_y)
 
